@@ -1,0 +1,15 @@
+# Ignore Python cache files and unnecessary folders
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+*.env
+*.git
+
+# Exclude the problematic file with non-UTF-8 characters
+depth/Lib/site-packages/IPython/core/tests/nonascii.py
