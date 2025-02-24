@@ -9,7 +9,9 @@ __pycache__/
 *.sqlite3
 *.db
 *.env
-*.git
+*.g
+ENV PYTHONIOENCODING=utf-8
+
 
 # Exclude the problematic file with non-UTF-8 characters
 depth/Lib/site-packages/IPython/core/tests/nonascii.py
